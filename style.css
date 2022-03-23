@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+  font-family: 'Russo One', sans-serif;
+}
+body, html{height:100%}
+
+body.main{
+    background-image: url(images/klaviatura_podsvetka_fioletovyj_212155_1920x1080.jpg);
+    text-align: center;
+    color: white;
+    /* background-size: cover; */
+}
+body.logbody{
+    background-image: url(images/shar_tekstura_obem_196647_1920x1080.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0;
+}
+body.reg{
+    background-color: black;
+    background-image: url(images/Cool-1920x1080-Gif-With-Transparant-Back-Ground-.gif);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0;
+}
+body.video{
+    background-image: url(images/nvidia\ \(1920x1080\).jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0;
+}
+body.procces{
+    background-image: url(images/intel-12th-gen-core-1-16x9.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0;
+}
+body.monitor{
+    background-image: url(images/msi60a2285e52cb3323b80a56b0de38e0cc.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0;
+}
+body.check{
+    background-image: url(images/set_tekstura_raznotsvetnyj_154324_1920x1080.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    margin: 0; 
+}
+
+header h1{
+  text-align: center;
+  color: white;
+}
+
+header ul {
+    text-align: center;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 130%;
+}
+.images{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+}
+.images img{
+    width: 29%;
+    box-shadow: 4px 4px 10px  black;
+    margin-left: 50px;
+}
+main{
+    text-align: center;
+}
+.words {
+    text-align: center;
+}
+.words p {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.map {
+    width: 100%;
+}
+.map iframe{
+    box-shadow: 4px 4px 10px  black;
+    width: 50%;
+}
+
+.back{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.logmenu{
+    text-align: center;
+    background-position: center;
+    box-shadow: 0px 0px 100px -10px rgb(139, 65, 65);
+    background-size: cover;
+    background-image: url(images/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-6.gif);
+    width: 40%;
+    height: 60%;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 1%;
+}
+ label{
+    font-size: 160%;
+}
+ input{
+    color: rgb(11, 218, 255);
+    border: 4px solid white;
+    padding: 5px;
+    width: 50%;
+    background-color: transparent;
+}
+ button{
+    padding: 5px;
+    color: white;
+    width: 30%;
+    transition: 0.5s;
+    border: 4px solid white;
+    background-color: transparent;
+    
+}
+ button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.form {
+    width: 40%;
+    background-color: black;
+    background-image: url(images/Cool-1920x1080-Gif-With-Transparant-Back-Ground-.gif);
+    margin-left: 29%;
+}
+.form button{
+    width: 50%;
+    padding: 10px;
+}
+#pol{
+    width: 5%;
+}
+#pol1{
+    width: 5%;
+}
+#pointer{
+    cursor: pointer;
+}
+.obshe ul li {
+    list-style: none;
+}
+.obshe ul li a{
+    text-decoration: none;
+    color: white;
+}
+.vimages{
+    width: 90%;
+}
+.vimages img{
+    width: 29%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 4%;
+    box-shadow: 0px 0px 20px -10px black;
+    margin-left: 50px;
+}
+.paragraps{
+    width: 80%;
+    margin-left: 10%;
+}
+header span{
+    color: red;
+    background-color: cornsilk;
+}
+body.tablee{
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    height: 80%;
+    text-align: center;
+}
+body.tablee a{
+    font-size: 50px;
+    background: -webkit-linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+table{
+    font-size: 40px;
+    margin: 100px auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border: 3px solid black;
+
+}
+td{
+    border: 3px solid black;
+    
+}
+.checkers {
+    width: 55%;
+    height: 90%;
+    background-color: red;
+    margin: auto;
+    margin-top: 1%;
+    padding: 0;
+    display: flex;
+    position: relative;
+    border: 3px solid steelblue
+}
+
+.checkers .row {
+    height: 100.1%;
+    width: 12.5%;
+    margin: 0
+}
+.checkers .row .box{
+    width: 100%;
+    height: 12.5%;
+    background-color: black;
+    transition: .3s;
+}
+.checkers .row .even{
+    width: 100%;
+    height: 12.5%;
+    background-color: white;
+}
+.checkers .row .box:nth-child(odd){
+    background-color: white;
+}
+.checkers .row .even:nth-child(odd){
+    background-color: black;
+}
+/* .numbers{
+    position: absolute;
+    color: black;
+    left: -6%;
+    height: 100vh;
+    font-size: 31px;
+    
+} */
+.top{
+    display: flex;
+    margin: auto;
+    width: 55%;
+    justify-content: space-around;
+}
+.left {
+    position: absolute;
+    height: 80%;
+    justify-content: space-between;
+    left: 18%;
+}
+.left h1 {
+    height: 12.5%;
+}
+.right {
+    position: absolute;
+    height: 80%;
+    justify-content: space-between;
+    right: 18%;
+}
+.right h1 {
+    height: 12.5%;
+}
+.checkers .row .box:hover{
+    transform: scale(1.1);
+    background-color: #2BFF88;
+}
+.checkers .row .even:hover{
+    transform: scale(1.1);
+    background-color: #2BFF88;
+}
+.check h1 {
+transition: 0.3s;
+}
+h1:hover  {
+    transform: scale(1.2);
+}
