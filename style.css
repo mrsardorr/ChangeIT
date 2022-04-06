@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: "Rushbrush"; 
+    src: url("fonts/Rushbrush.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
 *{
   font-family: 'Russo One', sans-serif;
 }
@@ -57,17 +63,38 @@ body.check{
     padding: 0;
     margin: 0; 
 }
+body.animabody{
+    height: auto;
+    color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+body.descript{
+    background-color: #8EC5FC; 
+    background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 100%);
 
+}
+
+header{
+    margin: auto;
+}
 header h1{
   text-align: center;
   color: white;
 }
 
 header ul {
-    text-align: center;
+    display: flex;
+    padding-left: 25%;
 }
 header ul li {
-    list-style: none;
+   list-style: none;
+    border: 3px solid white;
+    margin: 5px;
+}
+header ul li:hover{
+    background-color: white;
 }
 header ul li a {
     text-decoration: none;
@@ -83,6 +110,7 @@ header ul li a {
     width: 29%;
     box-shadow: 4px 4px 10px  black;
     margin-left: 50px;
+    transition: 0.3s;
 }
 main{
     text-align: center;
@@ -183,6 +211,8 @@ main{
     border-radius: 4%;
     box-shadow: 0px 0px 20px -10px black;
     margin-left: 50px;
+    transition: 0.2s;
+
 }
 .paragraps{
     width: 80%;
@@ -191,6 +221,15 @@ main{
 header span{
     color: red;
     background-color: cornsilk;
+    animation: rgb ease-in-out infinite 1s;
+}
+@keyframes rgb{
+    50%{
+        color: blue;
+    }
+    90%{
+        color: gold;
+    }
 }
 body.tablee{
     background: linear-gradient(#e66465, #9198e5);
@@ -234,7 +273,8 @@ td{
 .checkers .row {
     height: 100.1%;
     width: 12.5%;
-    margin: 0
+    margin: 0;
+    flex-direction: column;
 }
 .checkers .row .box{
     width: 100%;
@@ -252,6 +292,7 @@ td{
 }
 .checkers .row .even:nth-child(odd){
     background-color: black;
+
 }
 /* .numbers{
     position: absolute;
@@ -296,6 +337,175 @@ td{
 .check h1 {
 transition: 0.3s;
 }
-h1:hover  {
+.check h1:hover  {
     transform: scale(1.2);
+    color: crimson;
+}
+.main a {
+    transition: 0.3s;
+}
+.main a:hover{
+    transform: scale(1.2);
+    font-size: 30px;
+    color: black;
+}
+.main span {
+    transition: 0.2s;
+}
+.anim:hover span{
+    color: cornsilk;
+    background-color: red;
+}
+.images img:hover {
+    transform: scale(1.05);
+}
+.vimages img:hover{
+    transform: scale(1.05);
+}
+.anidiv{
+    transition: 0.5s;
+    width: 35vw;
+    height: 60vh;
+    background-color: white;
+    text-align: center;
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+}
+.animated {
+    transition: 0.3s;
+    margin: auto;
+    font-size: 100px;
+    color: black;
+    font-family: "Rushbrush";
+    letter-spacing: 20px;
+}
+.animated:hover{
+   transition: 0.4s;
+   color: white;
+   transform: scale(1.2);
+}
+.anidiv:hover{
+    transition: 0.5s;
+    width: 35vw;
+    height: 60vh;
+    background-color: red;
+    color: white;
+}
+.anidiv:hover .animated{
+    color: white;
+}
+body.cr{
+    background-color: burlywood;
+}
+
+.cr a{
+    font-size: 50px;
+    background: -webkit-linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateX(50%);
+    right: 50%;
+    position: absolute;
+}
+.cartoon{
+    width: 900px;
+    height: 800px;
+    background-image: url(images/backANI.png);
+    background-position: left 50%;
+    margin: auto;
+    border: 5px solid cornflowerblue;
+    transition: .3s;
+    position: relative;
+    
+}
+.cartoon:hover{
+    transition: 8s;
+    background-position: right 50%;
+}
+.car {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 60px;
+    transition: 2s;
+    float: left;
+}
+.car:hover {
+    bottom:-70px;
+}
+body.descript a {
+    transition: .3s;
+}
+body.descript ul{
+    padding-left: 3%;
+
+}
+body.descript a:hover{
+    transform: scale(1.2);
+    font-size: 30px;
+    color: black;
+}
+.descbody{
+    margin: 50px auto;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstdesc {
+    width: 50%;
+    /* background-color: red; */
+    height: 95%;
+    overflow: hidden;
+}
+.firstdesc h1{
+    text-align: center; 
+    font-size: 50px;
+}
+.firstdesc p {
+    font-size: 20px;
+    text-align: center;
+}
+.seconddesc{
+    width: 48%;
+    height: 95%;
+}
+.seconddesc h1{
+    text-align: center;
+    font-family: "Rushbrush";
+    letter-spacing: 5px;
+}
+body.flexhome{
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    
+}
+body.flexhome .box{
+    width: 20%;
+    height: 10%;
+    margin: 3px;
+    border: 3px solid crimson;
+}
+.var1{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+
+}
+.twoflex{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    
+}
+.endd{
+    align-items: flex-end;
 }
